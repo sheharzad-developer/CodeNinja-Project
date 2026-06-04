@@ -1,0 +1,103 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 10% auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.FormGrey {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.text {
+    margin: 30px 0;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input#fname,
+input#lname,
+input#username,
+input#email,
+input#mobile,
+input#password {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px;
+    margin-bottom: 10px;
+    background: #F4003B;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #F4003B;
+    color: white;
+}
+
+input#checkbox {
+    margin-right: 10px;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ::placeholder {
+    color: white;
+} */
+
+.checkbox {
+    padding: 20px;
+}
+
+.ForgotPassword {
+    padding: 20px;
+}
+
+.SignInLink {
+    text-decoration: none;
+    color: white;
+}
+
+.forgetPassword {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgetPassword a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}

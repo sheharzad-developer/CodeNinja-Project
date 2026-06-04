@@ -1,0 +1,19 @@
+.PaymentCancel {
+    width: 25%;
+    margin: 10% auto;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
+}
+
+.PaymentCancelBackground {
+    text-align: center;
+}
+
+.PaymentCancelBackgroundIcon {
+    height:50px;
+    background-image: url(../../assets/closeX.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-position: center;
+}

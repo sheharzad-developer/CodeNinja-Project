@@ -1,0 +1,159 @@
+.PopularPage {
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-size: cover;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+/* .Main-class {
+    position: absolute;
+    width: 1200px;
+    height: 180.48px;
+    left: 210px;
+    top: 250px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 5px rgba(0, 0, 0, 0.82);
+    border-radius: 20px;
+} */
+
+.Sub-Div {
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 200px;  
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.82);
+    border-radius: 20px;
+
+    /* position: absolute;
+    width: 573px;
+    height: 203px;
+    left: 550px;
+    top: 300px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 5px rgba(0, 0, 0, 0.82);
+    border-radius: 20px; */
+
+}
+
+
+
+.iconBox {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(255, 0, 0, 0.25);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.iconBox2 {
+
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(255, 0, 0, 0.25);
+}
+
+/* .sub-rec1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 322.64px;
+    height: 89.36px;
+    left: 30px;
+    top: 50px;
+    
+    border: 1px solid #F4003B;
+    border-radius: 10px;
+}
+.sub-rec2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 216.35px;
+    height: 89.36px;
+    left: 400px;
+    top: 50px;
+    
+    border: 1px solid #F4003B;
+    border-radius: 10px;
+}
+.sub-rec3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 216.35px;
+    height: 89.36px;
+    left: 680px;
+    top: 50px;
+    
+    border: 1px solid #F4003B;
+    border-radius: 10px;
+}
+.sub-rec4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 216.35px;
+    height: 89.36px;
+    left: 950px;
+    top: 50px;
+    
+    border: 1px solid #F4003B;
+    border-radius: 10px;
+}
+#container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #myButton {
+    position: relative;
+    top: 160px;
+    left: 40px;
+    padding: 10px 20px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+   */

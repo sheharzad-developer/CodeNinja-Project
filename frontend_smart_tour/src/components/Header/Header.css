@@ -1,0 +1,79 @@
+.header img {
+  width: 80%;
+  height: 35px;
+}
+
+.header a {
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+
+.header a:hover {
+  color: red;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 0px 0px;
+}
+
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-right: 40px;   
+  
+
+}
+
+.button {
+  border: none;
+  background-color: red;
+  color: black;
+  text-decoration: none;
+padding: 10px;
+  font-size: 20px;
+
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+.header button:hover{
+ color: white;
+}
+
+.logo, .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+.headerMain {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+}
